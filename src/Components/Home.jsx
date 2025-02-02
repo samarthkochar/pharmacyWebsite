@@ -2,13 +2,14 @@ import React from 'react'
 import Navbar from './Navbar'
 import SearchBar from './SearchBar'
 import Carousel from './Carousel'
-
-const Home = () => {
+import Services from './Services'
+const Home = ({cart,setCart}) => {
   return (
     <div>
-        <Navbar/>
+        <Navbar cart={cart}/>
         <SearchBar/>
         <Carousel/>
+        <Services/>
     </div>
   )
 }
