@@ -46,7 +46,7 @@ function App() {
       },
       {
         path:"/products/search/:item",
-        element:<><Navbar cart={cart}/><SearchBar/><SearchItem/></>
+        element:<><Navbar cart={cart}/><SearchBar/><SearchItem cart={cart} setCart={setCart}/></>
       },
       {
         path:"/offers",

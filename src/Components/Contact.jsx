@@ -20,7 +20,7 @@ const Contact = () => {
     <Wrapper>
       <div className="container">
         <h1>Contact</h1>
-        <p className="heading">For any Query-Send Us an Email.</p>
+        <p className="heading">For any query-Send Us an Email.</p>
 
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="name-section">

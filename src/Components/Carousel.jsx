@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 const images = [
-  'Public/BnrImg/bnr1.jpg',
-  'Public/BnrImg/bnr2.jpg',
-  'Public/BnrImg/bnr3.jpg',
-  'Public/BnrImg/bnr4.jpg',
-  'Public/BnrImg/bnr5.jpg',
+  '/BnrImg/bnr1.jpg',
+  '/BnrImg/bnr2.jpg',
+  '/BnrImg/bnr3.jpg',
+  '/BnrImg/bnr4.jpg',
+  '/BnrImg/bnr5.jpg',
 ];
 
 const Carousel = () => {

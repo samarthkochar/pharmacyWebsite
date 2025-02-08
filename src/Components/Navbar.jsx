@@ -9,7 +9,7 @@ const Navbar = ({ cart }) => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
-          <img className="img-fluid me-3" src="Public/Logo/logo.jpg" style={{ width: '4%' }} alt="" />
+          <img className="img-fluid me-3" src="/Logo/logo.jpg" style={{ width: '4%' }} alt="" />
           <Link className="navbar-brand" to="/">PharmaCare</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

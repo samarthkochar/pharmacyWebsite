@@ -46,29 +46,29 @@ const Products = ({ items, cart, setCart }) => {
       />
       <div className="container">
         <div className="row">
-          {items.map((products) => {
+          {items.map((prod) => {
             return (
-                <div key={products.id} className="card">
-                  <Link to={`/products/productdetail/${products.id}`}>
+                <div key={prod.id} className="card">
+                  <Link to={`/products/productdetail/${prod.id}`}>
                     <img
                       className="card-img-top"
-                      src={products.imgSrc}
+                      src={prod.imgSrc}
                       alt="Card image cap"
                     />
                   </Link>
                   <div className="card-body">
-                    <h5 className="card-title">{products.title}</h5>
-                    <p className="card-text">{products.description}</p>
+                    <h5 className="card-title">{prod.title}</h5>
+                    <p className="card-text">{prod.description}</p>
                     <div className="btn-body">
-                      <Link className="btn" to={`/products/productdetail/${products.id}`}>{products.price} ₹</Link>
+                      <Link className="btn" to={`/products/productdetail/${prod.id}`}>{prod.price} ₹</Link>
                       <button
                         onClick={() =>
                           addToCart(
-                            products.id,
-                            products.price,
-                            products.title,
-                            products.description,
-                            products.imgSrc
+                            prod.id,
+                            prod.price,
+                            prod.title,
+                            prod.description,
+                            prod.imgSrc
                           )
                         }
                         className="btn btn-atc"

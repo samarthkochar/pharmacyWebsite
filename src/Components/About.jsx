@@ -4,7 +4,7 @@ const About = () => {
   return (
     <Wrapper>
       <div>
-        <img src="./Public/about/about-img.jpg"></img>
+        <img src="/about/about-img.jpg"></img>
         <p>
           PharmaCare Online is a modern, secure, and user-friendly online
           pharmacy platform designed to provide customers with a seamless
